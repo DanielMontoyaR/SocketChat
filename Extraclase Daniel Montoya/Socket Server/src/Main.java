@@ -1,12 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+/**
+ *  Institito Tecnológico de Costa Rica
+ *  Ingenirería en Computadores
+ *  Algoritmos Y Estructuras de Datos I
+ *  Elaborado por Daniel Montoya Rivera - 2020324854
+ *  Profesor: Leonardo Araya Martínez
+ *  Grupo: 3
+ *  Semestre II
+ *  2020
  */
 
 /**
- *
  * @author Daniel Montoya
+ *
+ *
  */
 public class Main {
 
@@ -15,13 +22,12 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         Server serv = new Server();
         Client cliente = new Client();
-        
-        
+
         serv.start();
         cliente.start();
     }
-    
+
 }
