@@ -1,2 +1,3 @@
-# SocketChat
-Se debe desarrollar una aplicación en Java que implemente un servicio sencillo de chat. La aplicación de chat se puede ejecutar varias veces en la misma computadora. Cuando se ejecuta, va a buscar un puerto que no esté ocupado. Al encontrarlo, crea un SocketServer para escuchar en ese puerto. Cuando hay varias aplicaciones ejecutándose, el usuario puede indicar a cuál IP y puerto (si todo se ejecuta en la misma máquina, la IP sería 127.0.0.1) quiere enviar un mensaje. Introduce el mensaje y presiona enviar. En la aplicación destino, se muestra el mensaje y el usuario de dicha aplicación, puede responder y continuar el chat.
+Manejo de Excepciones y Framework
+
+Se desarrolla un código que incluye varios ejemplos de manejo de excepciones junto con un framework de logging.
